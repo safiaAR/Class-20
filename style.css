@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family: arial; 
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+nav{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+nav .button{
+    background-color: #151622;
+    color: #3958be;
+    padding: 15px 25px;
+    border: none;
+    outline: none;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.sidebar{
+    width: 250px;
+    height: 100vh;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    text-align: center;
+    padding: 20px;
+    transform: scaleX(0);
+    transition: 0.3s;
+    transform-origin: left;
+}
+
+.active{
+    transform: scaleX(1);
+}
